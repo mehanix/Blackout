@@ -1,5 +1,5 @@
 <h1 align="center"><i>Blackout</i></h1>
-A randomly-generated maze game
+<p align="center">A randomly-generated maze game</p>
 <p align="center"><img src="http://i.imgur.com/NoC4cHn.png"> </p>
 
 
