@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=FOV
+comment0.text=\r\n\ FOV\ (Field\ Of\ View)\r\n\ \r\n\ Clasa\ care\ fixeaza\ in\ jurul\ jucatorului\ un\ cerc\ transparent,\ pentru\ a\ vedea\ in\ jurul\ lui\ numai\ pe\ o\ anumita\ raza.\r\n\ \r\n
+comment1.params=p
+comment1.target=FOV(Player)
+comment2.params=
+comment2.target=void\ act()
+numComments=3

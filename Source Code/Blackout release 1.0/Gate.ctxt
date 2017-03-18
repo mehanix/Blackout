@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=Gate
+comment0.text=\r\n\ Gate\ -\ Clasa\ folosita\ la\ generarea\ labirinturilor\ in\ Modul\ Puzzle\r\n\ \r\n\ Este\ poarta\ care\ blocheaza\ iesirea\ din\ labirint.\r\n\ Se\ va\ deschide\ cand\ playerul\ colecteaza\ cele\ 4\ nestemate\r\n
+comment1.params=
+comment1.target=void\ act()
+numComments=2

@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=ItemCounter
+comment0.text=\r\n\ ItemCounter\r\n\ \r\n\ Clasa\ care\ se\ ocupa\ cu\ numaratul\ duratei\ efectului\ obiectului\ Speedpill,\r\n\ cat\ si\ numaratul\ pietrelor\ colectate\ din\ labrint\ in\ Modul\ Puzzle.\r\n
+comment1.params=
+comment1.target=void\ act()
+comment2.params=
+comment2.target=void\ checkPillCountdown()
+numComments=3

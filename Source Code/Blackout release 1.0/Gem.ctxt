@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=Gem
+comment0.text=\r\n\ Gem\r\n\ \r\n\ Clasa\ care\ creeaza\ un\ obiect\ Gem,\ cu\ culoarea\ specificata\ de\ colorIndex.\r\n\ La\ atingerea\ de\ catre\ jucator\ al\ obiectului,\ el\ dispare\ si\ seteaza\ in\ vectorul\ gems_taken\r\n\ pe\ pozitia\ colorIndex\ valoarea\ 1,\ ceea\ ce\ inseamna\ ca\ piatra\ a\ fost\ colectata.\r\n
+comment1.params=colorIndex
+comment1.target=Gem(int)
+comment2.params=
+comment2.target=void\ act()
+numComments=3

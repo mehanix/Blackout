@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=MainMenuButton
+comment0.text=\r\n\ MenuButton\r\n\ \r\n\ Buton\ care\ apare\ in\ ambele\ moduri\ de\ joc\r\n\ Care\ face\ intoarcerea\ la\ meniu\r\n
+comment1.params=
+comment1.target=MainMenuButton()
+comment2.params=
+comment2.target=void\ act()
+numComments=3

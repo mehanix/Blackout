@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=Button
+comment0.text=\r\n\ \ Button\r\n\ \ \r\n\ \ Clasa\ care\ creeaza\ un\ buton.\ Butonului\ i\ se\ imprima\ un\ string\ in\ functie\ de\ functia\ lui(campul\ type\ din\ constructor)\r\n\ \ si\ de\ limba\ aleasa\ de\ utilizator.\r\n\ \ \r\n\ \ La\ apasarea\ butonului,\ el\ seteaza\ modul\ de\ joc(gamemode)\ la\ tipul\ lui.\r\n
+comment1.params=type\ lang
+comment1.target=Button(int,\ int)
+comment2.params=
+comment2.target=void\ act()
+comment3.params=zone
+comment3.target=void\ moveUp(int)
+comment4.params=
+comment4.target=void\ showButtonTooltip()
+numComments=5

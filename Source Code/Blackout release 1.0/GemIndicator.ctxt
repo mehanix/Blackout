@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=GemIndicator
+comment0.text=\r\n\ GemIndicator\r\n\ \r\n\ Iconita\ a\ barii\ de\ stare\ care\ este\ colorata\ complet\ in\ momentul\ in\ care\ o\ nestemata\ a\ fost\ colectata\ de\ player.\r\n
+comment1.params=colorIndex
+comment1.target=GemIndicator(int)
+comment2.params=
+comment2.target=void\ act()
+numComments=3

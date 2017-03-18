@@ -1,0 +1,46 @@
+import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
+
+/**
+ * Write a description of class items here.
+ * 
+ * @author (your name) 
+ * @version (a version number or a date)
+ */
+public class items extends Actor
+{
+    public static int[] gems_taken = new int[4];
+    int ok,s;
+    
+    //muta timer pill aci
+     static int pillTimer=100;
+      static boolean shouldCountdownPill=false;
+      static int glassesTimer=100;
+      static boolean shouldCountdownGlasses=false;
+    public void act() 
+    {
+        if(shouldCountdownPill)
+        {
+            if(pillTimer>0)
+                pillTimer--;
+            else
+                {
+                    Player.speed=2;
+                    shouldCountdownPill=false;
+                    
+                }
+                
+        }
+        if(shouldCountdownGlasses)
+        {
+            if(glassesTimer>0)
+                glassesTimer--;
+            else
+                {
+                    Player.speed=2;
+                    shouldCountdownPill=false;
+                    
+                }
+                
+        }
+    }    
+}

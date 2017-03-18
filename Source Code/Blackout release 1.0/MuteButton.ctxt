@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=MuteButton
+comment0.text=\r\n\ MuteButton\r\n\ \r\n\ Buton\ care\ opreste/porneste\ muzica\ de\ fundal.\r\n
+comment1.params=
+comment1.target=MuteButton()
+comment2.params=
+comment2.target=void\ act()
+numComments=3

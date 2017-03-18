@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=Eyeglasses
+comment0.text=\r\n\ Eyeglasses\r\n\ \r\n\ Obiect\ care\ poate\ fi\ prezent\ in\ labirint.\ Cand\ este\ atins,\ el\ mareste\ raza\ FOV-ului\ din\ jurul\ jucatorului.\r\n
+comment1.params=
+comment1.target=Eyeglasses()
+comment2.params=
+comment2.target=void\ act()
+numComments=3

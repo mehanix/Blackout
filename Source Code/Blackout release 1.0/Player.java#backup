@@ -1,0 +1,152 @@
+import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
+/**
+ * Write a description of class Player here.
+ * 
+ * @author (your name) 
+ * @version (a version number or a date)
+ */
+public class Player extends Actor
+{
+    /**
+     * Act - do whatever the Player wants to do. This method is called whenever
+     * the 'Act' or 'Run' button gets pressed in the environment.
+     */
+    static int speed=2;
+    int frame, delay=14;
+    GreenfootImage r1 = new GreenfootImage("right1.png");
+    GreenfootImage r2 = new GreenfootImage("right2.png");
+    GreenfootImage r3 = new GreenfootImage("right3.png");
+    GreenfootImage l1 = new GreenfootImage("left1.png");
+    GreenfootImage l2 = new GreenfootImage("left2.png");
+    GreenfootImage l3 = new GreenfootImage("left3.png");
+    GreenfootImage f1 = new GreenfootImage("front1.png");
+    GreenfootImage f2 = new GreenfootImage("front2.png");
+    GreenfootImage f3 = new GreenfootImage("front3.png");
+    GreenfootImage b1 = new GreenfootImage("back1.png");
+    GreenfootImage b2 = new GreenfootImage("back2.png");
+    GreenfootImage b3 = new GreenfootImage("back3.png");
+    
+    public Player()
+    {
+     //FieldOfView fov = new FieldOfView(this);
+    }
+
+    public void act() 
+    {
+        checkKeys();
+        if(MyWorld.gamemode==2)
+            checkIfVictory();
+    }    
+    void checkKeys()
+    {
+        if (Greenfoot.isKeyDown("left"))
+            moveLeft();
+        if (Greenfoot.isKeyDown("right"))
+            moveRight();     
+        if (Greenfoot.isKeyDown("up"))
+            moveUp();
+        if (Greenfoot.isKeyDown("down"))
+            moveDown();            
+    }
+    void moveLeft()
+    {
+        move(-speed);
+        if (getOneIntersectingObject(wall.class) != null) 
+            move(speed);
+         frame ++;
+        if(frame < 1 * delay)
+        {
+            setImage(l1);
+        }
+        else if(frame < 2 * delay)
+        {
+            setImage(l2);
+        }
+        else if (frame < 3 * delay)
+        {
+            setImage(l3);
+        }
+        else {            frame = 1; return;}
+    }
+        void moveRight()
+    {
+        move(speed);
+        if (getOneIntersectingObject(wall.class) != null) 
+            move(-speed);
+                     frame ++;
+        if(frame < 1 * delay)
+        {
+            setImage(r1);
+        }
+        else if(frame < 2 * delay)
+        {
+            setImage(r2);
+        }
+        else if (frame < 3 * delay)
+        {
+            setImage(r3);
+
+        }
+        else {frame = 1; return;}
+    }
+    void moveUp()
+    {
+        setLocation(getX(),getY()-speed);
+        if (getOneIntersectingObject(wall.class) != null) 
+          setLocation(getX(),getY()+speed);
+         frame ++;
+        if(frame < 1 * delay)
+        {
+            setImage(b1);
+        }
+        else if(frame < 2 * delay)
+        {
+            setImage(b2);
+        }
+        else if (frame < 3 * delay)
+        {
+            setImage(b3);
+
+        }
+        else {frame = 1; return;}        
+    }
+    void moveDown()
+    {
+        setLocation(getX(),getY()+speed);
+        if (getOneIntersectingObject(wall.class) != null) 
+          setLocation(getX(),getY()-speed); 
+         frame ++;
+        if(frame < 1 * delay)
+        {
+            setImage(f1);
+        }
+        else if(frame < 2 * delay)
+        {
+            setImage(f2);
+        }
+        else if (frame < 3 * delay)
+        {
+            setImage(f3);
+
+        }
+        else {frame = 1; return;}        
+    }    
+    void checkIfVictory()
+    {
+        if(this.isAtEdge())
+            //TODO show victory message
+            {
+               //resetting variables
+               MyWorld.gamemode=-1;
+               MyWorld.isPlaying=false;
+               for(int i=0;i<4;i++)
+                        ItemCounter.gems_taken[i]=0;
+    
+              int score;
+              PMworld.shouldShowVictoryWindow==true;
+              //switching to menu                
+                // if (getWorld() instanceof MyWorld)
+                
+            }
+    }
+}

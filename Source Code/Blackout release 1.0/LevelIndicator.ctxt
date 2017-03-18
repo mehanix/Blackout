@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=LevelIndicator
+comment0.text=\r\n\ LevelIndicator\r\n\ \r\n\ Parte\ a\ barii\ de\ stare\ care\ afiseaza\ locul\ unde\ se\ afla\ inscriptionat\ numarul\ nivelului\ curent.\r\n
+comment1.params=
+comment1.target=LevelIndicator()
+numComments=2

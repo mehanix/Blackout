@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=enLangSelector
+comment0.text=\r\n\ enLangSelector\r\n\ \r\n\ Clasa\ care\ creeaza\ un\ buton\ ce,\ odata\ apasat,\ seteaza\ limba\ jocului\ la\ engleza.\r\n
+comment1.params=
+comment1.target=enLangSelector()
+comment2.params=
+comment2.target=void\ act()
+numComments=3

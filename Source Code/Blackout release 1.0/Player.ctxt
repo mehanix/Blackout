@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Player
+comment0.text=\r\n\ Player\ -\ Jucatorul\ \r\n\ Una\ dintre\ clasele\ cele\ mai\ importante\ ale\ jocului.\r\n\ \r\n\ \ Se\ ocupa\ cu\:\r\n\ Miscarile\ jucatorului\ pe\ directiile\ sus,\ jos,\ stanga,\ dreapta\r\n\ Coliziunile\ cu\ peretii\ labirintului\ (Wall.class)\r\n\ Animatiile\ jucatorului\ pe\ cele\ 4\ directii\r\n
+comment1.params=
+comment1.target=void\ act()
+comment2.params=
+comment2.target=void\ checkKeys()
+comment3.params=
+comment3.target=void\ moveLeft()
+comment4.params=
+comment4.target=void\ moveRight()
+comment5.params=
+comment5.target=void\ moveUp()
+comment6.params=
+comment6.target=void\ moveDown()
+numComments=7
