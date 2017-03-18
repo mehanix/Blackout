@@ -1,0 +1,40 @@
+import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
+
+/**
+ * Write a description of class Tutorial here.
+ * 
+ * @author (your name) 
+ * @version (a version number or a date)
+ */
+public class Tutorial extends start
+{
+    GreenfootImage tut1,tut2;
+    public Tutorial()
+    {
+        if (start.lang==0)
+                    {
+                        GreenfootImage tut1= new GreenfootImage("EnTutPic1.png");
+                        GreenfootImage tut2= new GreenfootImage("EnTutPic2.png");                        
+                    }
+                else
+                    {
+                        GreenfootImage tut1= new GreenfootImage("RoTutPic1.png");
+                        GreenfootImage tut2= new GreenfootImage("RoTutPic2.png");                    
+                    } 
+        setImage(tut1);
+    }
+    
+    public void act()
+    {
+        if (Greenfoot.mouseClicked(this))
+            {
+                if (getImage() == tut1)
+                    setImage(tut2);
+                else
+                   {
+                      MyWorld.gamemode=-1;
+                      getWorld().removeObject(this);
+                    }
+            }
+    }    
+}

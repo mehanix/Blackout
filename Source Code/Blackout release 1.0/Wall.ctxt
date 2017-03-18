@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=Wall
+comment0.text=\r\n\ Wall\ --\ Clasa\ folosita\ la\ generarea\ labirinturilor\r\n\ Cu\ el\ se\ formeaza\ peretii\ labirintului.\r\n\ Obiectele\ care\ extind\ aceasta\ clasa(inclusiv)\ au\ proprietatea\ ca\ playerul\ nu\ poate\ trece\ prin\ ele.\r\n
+comment1.params=
+comment1.target=void\ act()
+numComments=2

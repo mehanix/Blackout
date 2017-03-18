@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=Start
+comment0.text=\r\n\ Start\r\n\ \r\n\ Afiseaza\ imaginea\ de\ inceput\ (cu\ logoul\ Blackout\!)\ si\ dispare\ prin\ fade-out\ dupa\ cateva\ secunde.\r\n\ Contine\ variabila\ statica\ lang,\ care\ seteaza\ limba\ jocului.\r\n\r\n
+comment1.params=
+comment1.target=void\ act()
+comment2.params=
+comment2.target=void\ animate()
+numComments=3

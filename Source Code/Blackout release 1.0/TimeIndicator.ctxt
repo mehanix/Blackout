@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=TimeIndicator
+comment0.text=\r\n\ TimeIndicator\r\n\ \r\n\ Text\ afisat\ pe\ bara\ de\ stare\ care\ arata\ locul\ unde\ se\ afla\ timpul/timpul\ ramas.\r\n
+comment1.params=
+comment1.target=TimeIndicator()
+numComments=2

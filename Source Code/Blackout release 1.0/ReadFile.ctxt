@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=ReadFile
+comment1.params=file_path
+comment1.target=ReadFile(java.lang.String)
+comment2.params=
+comment2.target=java.lang.String\ OpenFile()
+numComments=3

@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=ScoreWindow
+comment0.text=\r\n\ ScoreWindow\r\n\ \r\n\ Creeaza\ fereastra\ pe\ care\ se\ vor\ afisa\ scorurile\ cele\ mai\ bune\ obtinute\ de\ jucator.\r\n\ \r\n
+comment1.params=
+comment1.target=ScoreWindow()
+comment2.params=
+comment2.target=void\ act()
+numComments=3

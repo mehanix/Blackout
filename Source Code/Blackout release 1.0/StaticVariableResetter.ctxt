@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=StaticVariableResetter
+comment0.text=\r\n\ StaticvariableResetter\r\n\ \r\n\ Clasa\ care\ reseteaza\ valorile\ statice\ folosite\ in\ joc\ atunci\ cand\ este\ necesar.\r\n\ De\ exemplu,\ la\ trecerea\ intr-un\ mod\ de\ joc\ nou.\r\n
+comment1.params=
+comment1.target=void\ resetMenuVariables()
+comment2.params=
+comment2.target=void\ resetPMVariables()
+comment3.params=
+comment3.target=void\ resetTAVariables()
+numComments=4

@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=Teleporter
+comment0.text=\r\n\ Teleporter\r\n\ \r\n\ Clasa\ care\ se\ ocupa\ cu\:\r\n\ Trecerea\ jucatorului\ la\ alt\ nivel(Modul\ Contra\ Timp)\r\n\ Terminarea\ jocului(Modul\ Puzzle)\r\n\r\n\ Este\ prezenta\ la\ generarea\ labirintului\ in\ ambele\ moduri\ de\ joc.\r\n
+comment1.params=
+comment1.target=Teleporter()
+comment2.params=
+comment2.target=void\ act()
+numComments=3

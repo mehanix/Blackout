@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=Tutorial
+comment0.text=\r\n\ Tutorial\r\n\ \r\n\ Clasa\ care\ afiseaza\ imaginile\ care\ formeaza\ tutorialul\ jocului.\r\n\ In\ aceste\ imagini\ se\ explica\ ce\ face\ fiecare\ element\ al\ jocului.\r\n\ In\ functie\ de\ limba\ aleasa,\ tutorialul\ va\ avea\ imagini\ diferite.\r\n
+comment1.params=
+comment1.target=Tutorial()
+comment2.params=
+comment2.target=void\ act()
+numComments=3

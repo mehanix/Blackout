@@ -1,0 +1,39 @@
+import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
+
+/**
+ * Write a description of class VictoryWindow here.
+ * 
+ * @author (your name) 
+ * @version (a version number or a date)
+ */
+public class VictoryWindow extends HUD
+{
+    /**
+     * Act - do whatever the VictoryWindow wants to do. This method is called whenever
+     * the 'Act' or 'Run' button gets pressed in the environment.
+     */
+    public VictoryWindow()
+    {
+          if (Start.lang==0)
+                    {
+                        GreenfootImage logo = new GreenfootImage("EnVictoryWindow.png");
+                        setImage(logo);
+                        
+                    }
+          else
+                    {
+                        GreenfootImage logo = new GreenfootImage("RoVictoryWindow.png");
+                        setImage(logo);                        
+                    }        
+    }
+    public void act() 
+    {
+        if (Greenfoot.mouseClicked(this))
+            {
+                if(MenuWorld.gamemode==1)
+                    TAworld.shouldSwitchWorld=true;
+                else
+                    PMworld.shouldSwitchWorld=true;
+            }        
+    }    
+}

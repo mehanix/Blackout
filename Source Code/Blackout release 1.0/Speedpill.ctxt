@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Speedpill
+comment0.text=\r\n\ Speedpill\r\n\ \r\n\ Creeaza\ un\ obiect\ care,\ atins\ de\ jucator,\ dispare\ si\ ii\ creste\ viteza\ de\ miscare\ pentru\ cateva\ secunde.\r\n
+comment1.params=
+comment1.target=Speedpill()
+comment2.params=
+comment2.target=void\ act()
+comment3.params=
+comment3.target=void\ checkPlayerCollision()
+numComments=4
