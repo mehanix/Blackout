@@ -34,3 +34,4 @@ Even though Blackout is an indie project, the game wouldn't be here today withou
 * [Lanea Zimmerman](http://opengameart.org/users/sharm) - Tiny16 Texture Pack - Partially edited and scaled 
 * [Juhani Junkala](http://opengameart.org/users/subspaceaudio) - 512 Sound Effects Pack - for the sounds for clicking buttons and picking up items
 * [Pennomi](http://opengameart.org/users/pennomi) , [Buch](http://opengameart.org/users/buch) , and [cemkalyoncu](http://opengameart.org/users/cemkalyoncu)  - Ui Elements (specifically, the menu buttons and Score window)
+* [danpost](https://www.greenfoot.org/users/2991) - Who answered to lots of my questions about writing the code
